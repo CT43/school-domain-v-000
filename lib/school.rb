@@ -19,7 +19,7 @@ class School
 
   def sort
     roster.collect do |grades, students|
-      students.max
+      students.sort
     end
   end
 end
