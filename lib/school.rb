@@ -20,7 +20,7 @@ class School
   def sort
     roster.each do |grades, students|
       grades.to_s
-      grades. {|students, data| students.sort}
+      grades.collect {|students, data| students.sort}
     end
   end
 end
