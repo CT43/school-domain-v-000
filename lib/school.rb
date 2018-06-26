@@ -19,9 +19,7 @@ class School
 
   def sort
     roster.each do |grades, students|
-      grades.to_s
-      binding.pry
-      grades.collect {|students, data| students.sort}
+      students.sort
     end
   end
 end
