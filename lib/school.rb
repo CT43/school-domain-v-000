@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-    roster.each do |grades, students|
+    roster.collect do |grades, students|
       students.max
     end
   end
