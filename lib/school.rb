@@ -19,7 +19,8 @@ class School
 
   def sort
     roster.each do |grades, students|
-      students.sort
+      grades.collect {|students, data| students.sort}
     end
+
   end
 end
