@@ -21,6 +21,6 @@ class School
     roster.each do |grades, students|
       grades.collect {|students, data| students.sort}
     end
-
+  end
   end
 end
