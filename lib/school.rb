@@ -1,4 +1,4 @@
-# code here!
+require 'pry'
 
 class School
 
@@ -13,7 +13,8 @@ class School
   end
 
   def add_student(name, grade)
-
+    roster[grade]
+    binding.pry
   end
 
 end
