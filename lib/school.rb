@@ -22,5 +22,4 @@ class School
       grades.collect {|students, data| students.sort}
     end
   end
-  end
 end
