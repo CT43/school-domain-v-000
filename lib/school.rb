@@ -9,11 +9,11 @@ class School
   end
 
   def roster
-    roster = {}
+    roster {}
   end
 
   def add_student(name, grade)
-    roster << grade
+     grade
     binding.pry
   end
 
